@@ -1,0 +1,333 @@
+CARGO: /root/.rustup/toolchains/nightly-x86_64-unknown-linux-musl/bin/cargo
+CARGO_CFG_TARGET_ARCH: x86_64
+CARGO_CFG_TARGET_ENDIAN: little
+CARGO_CFG_TARGET_ENV: musl
+CARGO_CFG_TARGET_FAMILY: unix
+CARGO_CFG_TARGET_FEATURE: fxsr,mmx,sse,sse2
+CARGO_CFG_TARGET_HAS_ATOMIC: 16,32,64,8,ptr
+CARGO_CFG_TARGET_HAS_ATOMIC_LOAD_STORE: 16,32,64,8,ptr
+CARGO_CFG_TARGET_OS: linux
+CARGO_CFG_TARGET_POINTER_WIDTH: 64
+CARGO_CFG_TARGET_THREAD_LOCAL: 
+CARGO_CFG_TARGET_VENDOR: unknown
+CARGO_CFG_UNIX: 
+CARGO_FEATURE_DEFAULT: 1
+CARGO_FEATURE_DEV_URANDOM_FALLBACK: 1
+CARGO_FEATURE_USE_HEAP: 1
+CARGO_HOME: /root/.cargo
+CARGO_MAKEFLAGS: --jobserver-fds=5,6 -j --jobserver-auth=5,6 -j
+CARGO_MANIFEST_DIR: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5
+CARGO_MANIFEST_LINKS: ring-asm
+CARGO_PKG_AUTHORS: Brian Smith <brian@briansmith.org>
+CARGO_PKG_DESCRIPTION: Safe, fast, small crypto using Rust.
+CARGO_PKG_HOMEPAGE: 
+CARGO_PKG_NAME: ring
+CARGO_PKG_REPOSITORY: https://github.com/briansmith/ring
+CARGO_PKG_VERSION: 0.13.5
+CARGO_PKG_VERSION_MAJOR: 0
+CARGO_PKG_VERSION_MINOR: 13
+CARGO_PKG_VERSION_PATCH: 5
+CARGO_PKG_VERSION_PRE: 
+DEBUG: false
+HOME: /root
+HOST: x86_64-unknown-linux-musl
+LD_LIBRARY_PATH: /root/rushalpine/rocket/target/release/deps:/root/.rustup/toolchains/nightly-x86_64-unknown-linux-musl/lib:/root/.rustup/toolchains/nightly-x86_64-unknown-linux-musl/lib
+LOGNAME: top
+NUM_JOBS: 1
+OLDPWD: /root/rushalpine
+OPT_LEVEL: 3
+OUT_DIR: /root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out
+PAGER: less
+PATH: /root/.cargo/bin:/root/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PROFILE: release
+PS1: \h:\w\$ 
+PWD: /root/rushalpine/rocket
+RUSTC: rustc
+RUSTDOC: rustdoc
+RUSTUP_HOME: /root/.rustup
+RUSTUP_TOOLCHAIN: nightly-x86_64-unknown-linux-musl
+RUST_RECURSION_COUNT: 1
+SHELL: /bin/ash
+SHLVL: 3
+SSL_CERT_DIR: /etc/ssl/certs
+SSL_CERT_FILE: /etc/ssl/cert.pem
+TARGET: x86_64-unknown-linux-musl
+TERM: linux
+USER: top
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/aes.o" "crypto/fipsmodule/aes/aes.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/exponentiation.o" "crypto/fipsmodule/bn/exponentiation.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/generic.o" "crypto/fipsmodule/bn/generic.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/montgomery.o" "crypto/fipsmodule/bn/montgomery.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/montgomery_inv.o" "crypto/fipsmodule/bn/montgomery_inv.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/shift.o" "crypto/fipsmodule/bn/shift.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/e_aes.o" "crypto/fipsmodule/cipher/e_aes.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/crypto.o" "crypto/crypto.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/ecp_nistz.o" "crypto/fipsmodule/ec/ecp_nistz.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/ecp_nistz256.o" "crypto/fipsmodule/ec/ecp_nistz256.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/gfp_p256.o" "crypto/fipsmodule/ec/gfp_p256.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/gfp_p384.o" "crypto/fipsmodule/ec/gfp_p384.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/limbs.o" "crypto/limbs/limbs.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/mem.o" "crypto/mem.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/gcm.o" "crypto/fipsmodule/modes/gcm.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/curve25519.o" "third_party/fiat/curve25519.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/cpu-intel.o" "crypto/cpu-intel.c"
+running: "ar" "crs" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/libring-core.a" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/aes-x86_64-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/aesni-x86_64-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/vpaes-x86_64-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/x86_64-mont-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/x86_64-mont5-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/chacha-x86_64-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/p256-x86_64-asm-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/aesni-gcm-x86_64-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/ghash-x86_64-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/poly1305-x86_64-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/sha512-x86_64-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/sha256-x86_64-elf.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/aes.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/exponentiation.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/generic.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/montgomery.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/montgomery_inv.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/shift.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/e_aes.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/crypto.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/ecp_nistz.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/ecp_nistz256.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/gfp_p256.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/gfp_p384.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/limbs.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/mem.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/gcm.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/curve25519.o" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/cpu-intel.o"
+exit code: 0
+cargo:rustc-link-lib=static=ring-core
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-musl")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,mmx,sse,sse2")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-U_FORTIFY_SOURCE" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/constant_time_test.o" "crypto/constant_time_test.c"
+running: "ar" "crs" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/libring-test.a" "/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out/constant_time_test.o"
+exit code: 0
+cargo:rustc-link-lib=static=ring-test
+cargo:rustc-link-search=native=/root/rushalpine/rocket/target/release/build/ring-68b8db41ad3d6d8b/out
